@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.metasolv.com/OMS/OrderModel/2002/06/25" xsi:schemaLocation=" http://www.metasolv.com/OMS/OrderModel/2002/06/25" name="LINK_UPGRADE_PROCESS" workstream="false">
+  <description>LINK_UPGRADE_PROCESS</description>
+  <startActivity>Start</startActivity>
+  <activity name="Start">
+    <description>Start</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="CONNECTIVITY_PLAN">
+    <task>CONNECTIVITY_PLANNING</task>
+    <description>CONNECTIVITY_PLAN</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="BOM">
+    <task>GENERATE_BOM</task>
+    <description>BOM</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="ASSET_CAPITALIZATION">
+    <task>ASSET_CAPITALIZATION</task>
+    <description>ASSET_CAPITALIZATION</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="ACTIVITY_CLOSURE">
+    <task>ACTIVITY_CLOSURE</task>
+    <description>ACTIVITY_CLOSURE</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="FIELD_AT">
+    <task>FIELD_AT</task>
+    <description>FIELD_AT</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="INSTALLATION_CABLING">
+    <task>INSTALLATION_CABLING</task>
+    <description>INSTALLATION_CABLING</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="LINK_CREATION_IN_NMS">
+    <task>LINK_CREATION_IN_NMS</task>
+    <description>LINK_CREATION_IN_NMS</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="MATERIAL_MOVEMENT">
+    <task>DEVICE_SHIPMENT</task>
+    <description>MATERIAL_MOVEMENT</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="NOC_AT">
+    <task>NOC_AT</task>
+    <description>NOC_AT</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <activity name="End">
+    <description>End</description>
+    <inputType>ALL</inputType>
+  </activity>
+  <transition>
+    <from>
+      <activity>Start</activity>
+      <status>next</status>
+    </from>
+    <to>CONNECTIVITY_PLAN</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>CONNECTIVITY_PLAN</activity>
+      <status>next</status>
+    </from>
+    <to>MATERIAL_MOVEMENT</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>Start</activity>
+      <status>next</status>
+    </from>
+    <to>BOM</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>BOM</activity>
+      <status>next</status>
+    </from>
+    <to>MATERIAL_MOVEMENT</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>MATERIAL_MOVEMENT</activity>
+      <status>next</status>
+    </from>
+    <to>INSTALLATION_CABLING</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>INSTALLATION_CABLING</activity>
+      <status>next</status>
+    </from>
+    <to>LINK_CREATION_IN_NMS</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>LINK_CREATION_IN_NMS</activity>
+      <status>next</status>
+    </from>
+    <to>FIELD_AT</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>FIELD_AT</activity>
+      <status>next</status>
+    </from>
+    <to>NOC_AT</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>NOC_AT</activity>
+      <status>next</status>
+    </from>
+    <to>ASSET_CAPITALIZATION</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>ASSET_CAPITALIZATION</activity>
+      <status>next</status>
+    </from>
+    <to>ACTIVITY_CLOSURE</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+  <transition>
+    <from>
+      <activity>ACTIVITY_CLOSURE</activity>
+      <status>next</status>
+    </from>
+    <to>End</to>
+    <mandatoryCheck>true</mandatoryCheck>
+  </transition>
+</process>

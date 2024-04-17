@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:tns="http://xmlns.oracle.com/communications/sce/dictionary/TTBS_EWO_LINK_UPGRADE_U/TTBS_EWO_LINK_UPGRADE_U" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/communications/sce/dictionary/TTBS_EWO_LINK_UPGRADE_U/TTBS_EWO_LINK_UPGRADE_U">
+    <xs:simpleType name="patchCord">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="0"/>
+      <xs:maxLength value="255"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

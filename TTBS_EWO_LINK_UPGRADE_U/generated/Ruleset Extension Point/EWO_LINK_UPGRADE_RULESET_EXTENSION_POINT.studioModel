@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:inventory="http://xmlns.oracle.com/communications/studio/model/inventory" xmlns:model="http://xmlns.oracle.com/communications/studio/model">
+  <metadata version="1.0.0" release="7.3.0"/>
+  <entity xsi:type="inventory:RulesetExtensionPoint" id="rep=EWO_LINK_UPGRADE_RULESET_EXTENSION_POINT" type="rep" typeName="Ruleset Extension Point" name="EWO_LINK_UPGRADE_RULESET_EXTENSION_POINT" resource="\TTBS_EWO_LINK_UPGRADE_U\model\EWO_LINK_UPGRADE_RULESET_EXTENSION_POINT.rst">
+    <note lang="default"/>
+    <project>
+      <relation ref="ivprj=TTBS_EWO_LINK_UPGRADE_U" type="Inventory Project" name="Dependency">
+        <target name="TTBS_EWO_LINK_UPGRADE_U" typeName="Inventory Project"/>
+      </relation>
+    </project>
+    <point>
+      <relation ref="ep=WorkflowManager_completeActivity" type="Extension Point" name="Point" kind="Entity">
+        <target name="WorkflowManager_completeActivity" typeName="Extension Point"/>
+      </relation>
+    </point>
+    <ruleset>
+      <relation ref="rul=EWO_LINK_UPGRADE" type="Ruleset" name="Rules" kind="Entity">
+        <target name="EWO_LINK_UPGRADE" typeName="Ruleset"/>
+      </relation>
+    </ruleset>
+  </entity>
+</model:Model>

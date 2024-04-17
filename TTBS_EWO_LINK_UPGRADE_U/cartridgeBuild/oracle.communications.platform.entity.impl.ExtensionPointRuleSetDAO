@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extent>
+  <object class="oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO" oid="oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO-0" version="0">
+    <field format="enum_name" name="type">AFTER</field>
+    <field name="extensionPoint">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/cgbu/inventory/nowhere/ora_uim_baseextpts/model/WorkflowManager_completeActivity.rstp#7.5.1.0.0_b0</field>
+    <field name="ruleSetEntity">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.RuleSetEntityDAO-0</field>
+    <field name="specification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/CONNECTIVITY_PLANNING.task#1.0.0.0.0_b0</field>
+    <field name="sequence">0</field>
+  </object>
+</extent>

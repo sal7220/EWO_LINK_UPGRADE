@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: TTBS_EWO_LINK_UPGRADE_U
+Bundle-Name: TTBS_EWO_LINK_UPGRADE_U
+Bundle-Version: 1.0.0.0.0
+Bundle-BuildTime: 2024-04-16 07:22:43
+Bundle-BuildNumber: 149
+Bundle-Category: Inventory
+Bundle-Vendor: InventoryCartridge
+Bundle-RequiredExecutionEnvironment: Oracle-Communications/Inventory-7.5.1,
+ JavaSE-1.8
+Bundle-RequiredTargetVersion: 7.5.1
+Require-Bundle: ora_uim_mds;bundle-version="7.5.1.0.0";bundle-category=Inventory;dependency-type=runtime,
+ TTBS_UIM_CHARACTERISTICS;bundle-version="1.0.0.0.0";bundle-category=Inventory;dependency-type=runtime,
+ TTBS_UIM_CHARACTERISTICS_V2;bundle-version="1.0.0.0.0";bundle-category=Inventory;dependency-type=runtime

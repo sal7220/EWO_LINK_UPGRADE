@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extent>
+  <object class="oracle.communications.platform.entity.impl.RuleSetEntityDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/EWO_LINK_UPGRADE.ruleset#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.RuleSetEntityDAO-0" version="0">
+    <field name="name">"EWO_LINK_UPGRADE"</field>
+    <field mode="skip" name="extensionPointRuleSets"/>
+    <field name="description">null</field>
+    <field name="type">null</field>
+    <field name="active">true</field>
+    <field name="xml">"package com.ttbs.linkupgrade.ewo;&#13;
+ &#13;
+import java.lang.*;&#13;
+import java.util.*;&#13;
+import oracle.communications.inventory.extensibility.extension.util.ExtensionPointRuleContext;&#13;
+import oracle.communications.inventory.api.framework.logging.Log;&#13;
+import oracle.communications.inventory.api.entity.*;&#13;
+import oracle.communications.inventory.api.framework.security.*;&#13;
+import oracle.communications.platform.persistence.PersistenceHelper;&#13;
+import oracle.communications.inventory.api.businessinteraction.WorkflowManager;&#13;
+import com.ttbs.cardaddition.ewo.*;&#13;
+import com.ttbs.linkupgrade.ConnectivityPlanning;&#13;
+global Log log;&#13;
+rule "EwoLinkUpgrade"&#13;
+        salience 0&#13;
+    when&#13;
+        context : ExtensionPointRuleContext();&#13;
+    then&#13;
+	  ConnectivityPlanning obj = new ConnectivityPlanning();&#13;
+	  obj.createConnectivity(context);&#13;
+	  log.info("","Assigned all activities to current user...");&#13;
+   	end"</field>
+    <field format="enum_name" name="runExtensionLanguage">DROOLS</field>
+    <field name="extensionContent">""</field>
+  </object>
+</extent>

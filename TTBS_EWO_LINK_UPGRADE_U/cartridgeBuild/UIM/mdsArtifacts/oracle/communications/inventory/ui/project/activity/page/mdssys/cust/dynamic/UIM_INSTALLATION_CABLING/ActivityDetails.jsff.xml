@@ -1,0 +1,103 @@
+<?xml version = '1.0'?>
+<mds:customization version="11.1.1.59.23" xmlns:mds="http://xmlns.oracle.com/mds">
+   <mds:insert after="act-wo" parent="act">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffINSTALLATION__CABLING_installationStatus_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffINSTALLATION__CABLING_installationStatus_LABEL']}" id="act-installationStatus" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['installationStatus'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="act" position="last">
+      <af:panelLabelAndMessage xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="act-dummy-6-1" label=" " styleClass="UIHintsSummaryPANEL_LABEL_AND_MESSAGE">
+         <af:outputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="x-act-dummy-6-1" value=" "/>
+      </af:panelLabelAndMessage>
+   </mds:insert>
+   <mds:insert after="editact-wo" parent="editact">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['installationStatus'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffINSTALLATION__CABLING_installationStatus_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffINSTALLATION__CABLING_installationStatus_LABEL']}" id="editact-installationStatus" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['installationStatus'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="editact" position="last">
+      <af:panelLabelAndMessage xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="editact-dummy-6-1" label=" " styleClass="UIHintsEditPANEL_LABEL_AND_MESSAGE">
+         <af:outputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="x-editact-dummy-6-1" value=" "/>
+      </af:panelLabelAndMessage>
+   </mds:insert>
+   <mds:modify element="act">
+      <mds:attribute name="rows" value="7"/>
+      <mds:attribute name="maxColumns" value="2"/>
+      <mds:attribute name="labelAlignment" value="start"/>
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_FORM_LAYOUT"/>
+   </mds:modify>
+   <mds:modify element="act-dur">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-asto">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-st">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-edt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-stdt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-pcl">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-wo">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-aedt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-spec">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-astdt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-ins">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-name">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact">
+      <mds:attribute name="rows" value="7"/>
+      <mds:attribute name="maxColumns" value="2"/>
+      <mds:attribute name="labelAlignment" value="start"/>
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_FORM_LAYOUT"/>
+   </mds:modify>
+   <mds:modify element="editact-dur">
+      <mds:attribute name="styleClass" value="UIHintsEditINPUT_TEXT"/>
+   </mds:modify>
+   <mds:modify element="editact-asto">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-st">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-edt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-stdt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-pcl">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-wo">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-aedt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-spec">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-astdt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-ins">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-name">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+</mds:customization>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extent>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-0" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-0</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/customerDelivery.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-1" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-0</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/remarks.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-2" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-1</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/Labelling.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-3" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-1</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/patchcordRouting.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-4" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-2</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/aEndInfo.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-5" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-2</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/aEndPortInfo.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-6" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-2</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/ringInfo.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-7" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-2</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/zEndInfo.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-8" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-2</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/zEndPortInfo.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-9" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-3</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/otrsfp.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-10" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-3</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/cableLength.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-11" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/project.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-12" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/quantity.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-13" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/tx_planning_doc.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-14" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/available_in_local_warehouse.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-15" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/cableLength.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-16" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/date.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-17" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/itemCode.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-18" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/sfpRequired.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-19" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-4</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/patchCord.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-20" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-5</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS/TTBS_UIM_CHARACTERISTICS/installationStatus.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-21" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-6</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/confirmAssetCapitalization.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-22" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-7</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/alarms.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO" oid="oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-23" version="0">
+    <field name="specification">oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.SpecificationDAO-8</field>
+    <field name="characteristicSpecification">oracle.communications.platform.ies.xfile.GUID:http://xmlns.oracle.com/communications/sce/dictionary/TTBS_UIM_CHARACTERISTICS_V2/TTBS_UIM_CHARACTERISTICS_V2/validate.characteristic#1.0.0.0.0_b0</field>
+    <field name="editMask">null</field>
+    <field name="displayMask">null</field>
+    <field name="valueValidationSource">null</field>
+    <field name="storeAbbreviation">null</field>
+    <field name="required">false</field>
+    <field name="isReadOnly">false</field>
+    <field name="enableSearch">false</field>
+    <field name="displayOrder">0</field>
+    <field name="isRangeable">true</field>
+    <field name="values"/>
+  </object>
+</extent>

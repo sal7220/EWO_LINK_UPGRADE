@@ -1,0 +1,22 @@
+package com.ttbs.linkupgrade.ewo;
+ 
+import java.lang.*;
+import java.util.*;
+import oracle.communications.inventory.extensibility.extension.util.ExtensionPointRuleContext;
+import oracle.communications.inventory.api.framework.logging.Log;
+import oracle.communications.inventory.api.entity.*;
+import oracle.communications.inventory.api.framework.security.*;
+import oracle.communications.platform.persistence.PersistenceHelper;
+import oracle.communications.inventory.api.businessinteraction.WorkflowManager;
+import com.ttbs.cardaddition.ewo.*;
+import com.ttbs.linkupgrade.ConnectivityPlanning;
+global Log log;
+rule "EwoLinkUpgrade"
+        salience 0
+    when
+        context : ExtensionPointRuleContext();
+    then
+	  ConnectivityPlanning obj = new ConnectivityPlanning();
+	  obj.createConnectivity(context);
+	  log.info("","Assigned all activities to current user...");
+   	end

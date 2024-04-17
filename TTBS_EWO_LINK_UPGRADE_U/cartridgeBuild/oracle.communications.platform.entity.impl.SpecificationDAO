@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<extent>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/ACTIVITY_CLOSURE.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-0" version="0">
+    <field name="name">"ACTIVITY_CLOSURE"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-0</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-1</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/FIELD_AT.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-1" version="0">
+    <field name="name">"FIELD_AT"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-2</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-3</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/CONNECTIVITY_PLANNING.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-2" version="0">
+    <field name="name">"CONNECTIVITY_PLANNING"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-4</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-5</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-6</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-7</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-8</element>
+    </field>
+    <field name="extensionPointRuleSets">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.ExtensionPointRuleSetDAO-0</element>
+    </field>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/DEVICE_SHIPMENT.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-3" version="0">
+    <field name="name">"DEVICE_SHIPMENT"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-9</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-10</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/GENERATE_BOM.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-4" version="0">
+    <field name="name">"GENERATE_BOM"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-11</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-12</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-13</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-14</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-15</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-16</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-17</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-18</element>
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-19</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/INSTALLATION_CABLING.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-5" version="0">
+    <field name="name">"INSTALLATION_CABLING"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-20</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/ASSET_CAPITALIZATION.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-6" version="0">
+    <field name="name">"ASSET_CAPITALIZATION"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-21</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/NOC_AT.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-7" version="0">
+    <field name="name">"NOC_AT"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-22</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+  <object class="oracle.communications.platform.entity.impl.ActivitySpecificationDAO" guid="http://xmlns.oracle.com/cgbu/inventory/nowhere/TTBS_EWO_LINK_UPGRADE_U/model/LINK_CREATION_IN_NMS.task#1.0.0.0.0_b0" oid="oracle.communications.platform.entity.impl.SpecificationDAO-8" version="0">
+    <field name="name">"LINK_CREATION_IN_NMS"</field>
+    <field name="instanceType">"instanceType.oracle.communications.platform.entity.impl.ActivityDAO"</field>
+    <field name="description">null</field>
+    <field name="startDate">1713205801000</field>
+    <field name="relatedSpecs"/>
+    <field mode="skip" name="fromSpecs"/>
+    <field name="type">null</field>
+    <field name="characteristicSpecUsages">
+      <element>oracle.communications.platform.ies.xfile.OID:oracle.communications.platform.entity.impl.CharacteristicSpecUsageDAO-23</element>
+    </field>
+    <field name="extensionPointRuleSets"/>
+    <field name="transitions"/>
+    <field name="media"/>
+    <field name="duration">1</field>
+    <field name="allowedUserGroup">null</field>
+    <field name="instructions">null</field>
+    <field name="isMilestone">false</field>
+  </object>
+</extent>

@@ -1,0 +1,153 @@
+<?xml version = '1.0'?>
+<mds:customization version="11.1.1.59.23" xmlns:mds="http://xmlns.oracle.com/mds">
+   <mds:insert parent="act" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_quantity_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_quantity_LABEL']}" id="act-quantity" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['quantity'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="act" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_available-5Fin-5Flocal-5Fwarehouse_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_available-5Fin-5Flocal-5Fwarehouse_LABEL']}" id="act-available-5Fin-5Flocal-5Fwarehouse" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['available_in_local_warehouse'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="act" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_date_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_date_LABEL']}" id="act-date" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['date'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="act" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_sfpRequired_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_sfpRequired_LABEL']}" id="act-sfpRequired" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['sfpRequired'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert after="act-wo" parent="act">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_project_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_project_LABEL']}" id="act-project" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['project'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="act-stdt" parent="act">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_tx-5Fplanning-5Fdoc_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_tx-5Fplanning-5Fdoc_LABEL']}" id="act-tx-5Fplanning-5Fdoc" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['tx_planning_doc'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="act-stdt" parent="act">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_cableLength_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_cableLength_LABEL']}" id="act-cableLength" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['cableLength'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="act-stdt" parent="act">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" readOnly="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_itemCode_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_itemCode_LABEL']}" id="act-itemCode" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['itemCode'].characteristic.value}" required="false" styleClass="UIHintsSummaryINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="act-stdt" parent="act">
+      <af:selectBooleanCheckbox xmlns:af="http://xmlns.oracle.com/adf/faces/rich" disabled="true" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_patchCord_TOOLTIP']}" text="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_patchCord_LABEL']}" id="act-patchCord" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['patchCord'].characteristic.value}" required="false"/>
+   </mds:insert>
+   <mds:insert parent="act" position="last">
+      <af:panelLabelAndMessage xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="act-dummy-10-1" label=" " styleClass="UIHintsSummaryPANEL_LABEL_AND_MESSAGE">
+         <af:outputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="x-act-dummy-10-1" value=" "/>
+      </af:panelLabelAndMessage>
+   </mds:insert>
+   <mds:insert parent="editact" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['quantity'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_quantity_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_quantity_LABEL']}" id="editact-quantity" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['quantity'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="editact" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['available_in_local_warehouse'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_available-5Fin-5Flocal-5Fwarehouse_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_available-5Fin-5Flocal-5Fwarehouse_LABEL']}" id="editact-available-5Fin-5Flocal-5Fwarehouse" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['available_in_local_warehouse'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="editact" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['date'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_date_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_date_LABEL']}" id="editact-date" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['date'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert parent="editact" position="last">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['sfpRequired'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_sfpRequired_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_sfpRequired_LABEL']}" id="editact-sfpRequired" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['sfpRequired'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert after="editact-wo" parent="editact">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['project'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_project_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_project_LABEL']}" id="editact-project" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['project'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="editact-stdt" parent="editact">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['tx_planning_doc'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_tx-5Fplanning-5Fdoc_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_tx-5Fplanning-5Fdoc_LABEL']}" id="editact-tx-5Fplanning-5Fdoc" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['tx_planning_doc'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="editact-stdt" parent="editact">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['cableLength'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_cableLength_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_cableLength_LABEL']}" id="editact-cableLength" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['cableLength'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT">
+         <af:validateLongRange xmlns:af="http://xmlns.oracle.com/adf/faces/rich" maximum="2147483647" minimum="-2147483648"/>
+      </af:inputText>
+   </mds:insert>
+   <mds:insert before="editact-stdt" parent="editact">
+      <af:inputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['itemCode'].component}" readOnly="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_itemCode_TOOLTIP']}" secret="false" label="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_itemCode_LABEL']}" id="editact-itemCode" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['itemCode'].characteristic.value}" required="false" styleClass="UIHintsEditINPUT_TEXT"/>
+   </mds:insert>
+   <mds:insert before="editact-stdt" parent="editact">
+      <af:selectBooleanCheckbox xmlns:af="http://xmlns.oracle.com/adf/faces/rich" binding="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['patchCord'].component}" disabled="false" shortDesc="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_patchCord_TOOLTIP']}" text="#{bundle['ActivityDetailsu002ejsffGENERATE__BOM_patchCord_LABEL']}" id="editact-patchCord" value="#{pageFlowScope.ActivityDetailsBean.characteristicsMap['patchCord'].characteristic.value}" required="false"/>
+   </mds:insert>
+   <mds:insert parent="editact" position="last">
+      <af:panelLabelAndMessage xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="editact-dummy-10-1" label=" " styleClass="UIHintsEditPANEL_LABEL_AND_MESSAGE">
+         <af:outputText xmlns:af="http://xmlns.oracle.com/adf/faces/rich" id="x-editact-dummy-10-1" value=" "/>
+      </af:panelLabelAndMessage>
+   </mds:insert>
+   <mds:modify element="act">
+      <mds:attribute name="rows" value="11"/>
+      <mds:attribute name="maxColumns" value="2"/>
+      <mds:attribute name="labelAlignment" value="start"/>
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_FORM_LAYOUT"/>
+   </mds:modify>
+   <mds:modify element="act-dur">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-asto">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-st">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-edt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-stdt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-pcl">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-wo">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-aedt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-spec">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-astdt">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-ins">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="act-name">
+      <mds:attribute name="styleClass" value="UIHintsSummaryPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact">
+      <mds:attribute name="rows" value="11"/>
+      <mds:attribute name="maxColumns" value="2"/>
+      <mds:attribute name="labelAlignment" value="start"/>
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_FORM_LAYOUT"/>
+   </mds:modify>
+   <mds:modify element="editact-dur">
+      <mds:attribute name="styleClass" value="UIHintsEditINPUT_TEXT"/>
+   </mds:modify>
+   <mds:modify element="editact-asto">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-st">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-edt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-stdt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-pcl">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-wo">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-aedt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-spec">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-astdt">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-ins">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+   <mds:modify element="editact-name">
+      <mds:attribute name="styleClass" value="UIHintsEditPANEL_LABEL_AND_MESSAGE"/>
+   </mds:modify>
+</mds:customization>
